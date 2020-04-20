@@ -37,3 +37,7 @@ body {
 .first-alphabet-large::first-letter {
   font-size: 3rem;
 }
+.img-custom {
+  width: 150vmax;
+  height: 150vmax;
+}
