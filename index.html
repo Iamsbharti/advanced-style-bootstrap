@@ -55,6 +55,114 @@
         </form>
       </div>
     </nav>
+    <!-- <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <figure class="figure">
+            <img
+              src="src/images/img1.jpg"
+              class="figure-img img-fluid rounded"
+              alt="?"
+            />
+            <figcaption class="figure-caption">Focus on unfocused</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>-->
+    <!--Modal-->
+    <!-- Button trigger modal -->
+    <div class="container" style="margin-top: 30px">
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#addBolgModal"
+      >
+        Add bolg
+      </button>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="addBolgModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Blog title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--card components-->
+    <div class="container" style="margin-top: 40px">
+      <div class="row justify-content-around">
+        <div class="col">
+          <div class="card border-primary" style="width: 18rem;">
+            <img src="src/images/img1.jpg" class="card-img-top" alt="?" />
+            <div class="card-body">
+              <h5 class="card-title">Focus The Unfoccused</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Read...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-primary" style="width: 18rem;">
+            <img src="src/images/img2.jpg" class="card-img-top" alt="?" />
+            <div class="card-body">
+              <h5 class="card-title">Where Have you been?</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Read...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-primary" style="width: 18rem;">
+            <img src="src/images/img3.jpg" class="card-img-top" alt="?" />
+            <div class="card-body">
+              <h5 class="card-title">Let's Play</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Read...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="src/index.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -71,5 +179,10 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <!--Modal Trigger
+      <script type="text/javascript">
+      $("#exampleModalLabel").modal();
+    </script>
+    -->
   </body>
 </html>
